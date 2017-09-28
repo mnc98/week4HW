@@ -9,13 +9,11 @@ $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
 print_r($year)
 
-$d = date('Y/m/d');
-
-if ($d < "0") {
+if ($date > $tar) {
     print_r(the past);
-} elseif ($d > "0") {
+} elseif ($date < $tar) {
     print_r(the future);
-} else ($d = "0") {
+} else {
     print_r(Oops);
 }
 
