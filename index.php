@@ -9,4 +9,14 @@ $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
 print_r($year)
 
+$d = date("H");
+
+if ($d < "0") {
+    print_r(the past);
+} elseif ($d > "0") {
+    print_r(the future);
+} else ($d = "0") {
+    print_r(Oops);
+}
+
 ?>
