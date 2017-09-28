@@ -10,11 +10,11 @@ echo "The value of \$year: ";
 print_r($year)
 
 if ($date > $tar) {
-    print_r(the past);
+    echo "the past";
 } elseif ($date < $tar) {
-    print_r(the future);
+    echo "the future";
 } else {
-    print_r(Oops);
+    echo "Oops";
 }
 
 ?>
