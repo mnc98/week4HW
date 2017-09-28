@@ -17,5 +17,8 @@ if ($date > $tar) {
 } else {
     echo "Oops";
 }
+echo "<br>";
+
+echo strpos($date, '/')."<br>";
 
 ?>
