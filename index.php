@@ -21,4 +21,18 @@ echo "<br>";
 
 echo strpos($date, '/')."<br>";
 
+echo str_word_count($date)."<br>";
+
+echo strlen($date)."<br>";
+
+echo ord($date)."<br>";
+
+echo substr($date, -2)."<br>";
+
+$arr1 = str_split($date);
+print_r($arr1)."<br>";
+
+/* foreach ($arr1 as &$value)
+	for */
+
 ?>
